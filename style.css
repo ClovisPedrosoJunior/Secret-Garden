@@ -18,7 +18,7 @@ header{
 
 /*header-nav*/
 
-#header-nav {
+#header-nav a {
     list-style: none; 
     display: flex;
     padding: 10px;
@@ -55,6 +55,6 @@ header{
     list-style: none;
 }
 
-#lista-abaixo {
+#lista-baixo {
     
 }
