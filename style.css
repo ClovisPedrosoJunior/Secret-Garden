@@ -5,9 +5,6 @@
     margin: 0;
     padding: 0;
 }
-#tittle{
-    color: #fff;
-}
 body{
     background-color: #fff;
 }
@@ -15,10 +12,9 @@ header{
     height: 50px;
     background-color: rgba(0, 0, 0, .7);
 }
-
 /*header-nav*/
 
-#header-nav a {
+#header-nav {
     list-style: none; 
     display: flex;
     padding: 10px;
@@ -40,8 +36,8 @@ header{
 
 /*imagem-inicio*/
 
-#imagem-inicio {
-    
+#imagem-inicio  {
+    height: 50px;
     display: flex;
     padding: 1px;
     margin: 20px;
@@ -50,11 +46,22 @@ header{
 
 /*FOOTER*/
 
-#lista-baixo ul a {
-    margin: 25px;/**/
+#lista-baixo li a {
+    text-decoration: none;
     list-style: none;
+    float: right;
 }
 
-#lista-baixo {
-    
+#lista-baixo a {
+    color:  #000000;
+
+}
+
+#lista-baixo li a:hover {
+    color:  #ffffff;
+    transition: border .3s;
+}
+
+h1 {
+
 }
